@@ -20,7 +20,7 @@ into the {body} of the default.hbs template --}}
         {{/if}}
     {{/if}}
 
-    {{#match @custom.header_style "!=" "Hidden"}}
+    {{!-- {{#match @custom.header_style "!=" "Hidden"}}
         <div class="site-header-inner inner">
             {{#match @custom.navigation_layout "Logo on cover"}}
                 {{#if @site.logo}}
@@ -33,7 +33,7 @@ into the {body} of the default.hbs template --}}
                 <p class="site-description">{{@site.description}}</p>
             {{/if}}
         </div>
-    {{/match}}
+    {{/match}} --}}
 
 </div>
 

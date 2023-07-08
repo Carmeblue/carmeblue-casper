@@ -872,7 +872,7 @@ production stylesheet in assets/built/screen.css
   position: relative;
   overflow: hidden;
   display: block;
-  margin-bottom: 32px;
+  /* margin-bottom: 16px; */
 }
 
 .post-card-image-link::after {
@@ -952,6 +952,7 @@ production stylesheet in assets/built/screen.css
   font-weight: 600;
   letter-spacing: -0.005em;
   line-height: 1;
+  /* margin-bottom: 12px; */
 }
 
 .post-card-featured {
@@ -1035,7 +1036,7 @@ production stylesheet in assets/built/screen.css
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-top: 12px;
+  margin-top: 6px;
   padding: 0;
   font-size: 1.3rem;
   color: var(--color-secondary-text);

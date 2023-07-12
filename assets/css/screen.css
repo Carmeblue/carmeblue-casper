@@ -2056,6 +2056,10 @@ iframe.instagram-media + script + :not([id]) {
   font-size: 1.3rem;
 }
 
+.site-footer .copyright {
+  margin-bottom: 16px;
+}
+
 .site-footer .copyright a {
   color: #fff;
   letter-spacing: -0.015em;
@@ -2105,7 +2109,7 @@ iframe.instagram-media + script + :not([id]) {
   border-radius: 100%;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .site-footer .inner {
     max-width: 500px;
     grid-template-columns: 1fr;
@@ -2120,7 +2124,7 @@ iframe.instagram-media + script + :not([id]) {
   .site-footer .copyright {
     margin-bottom: 16px;
   }
-}
+} */
 
 /* 11. Dark Mode
 /* ---------------------------------------------------------- */
